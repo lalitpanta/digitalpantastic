@@ -1,0 +1,95 @@
+{
+  "business_name": "Lalit Pant Portfolio",
+  "legal_name": "Lalit Pant",
+  "website": null,
+  "industry": "Computer Engineer / Web Development / AI-ML / Blockchain",
+
+  "description": "I'm a Kathmandu-based Computer Engineer and Backend Specialist with 3+ years of experience building robust, scalable digital solutions. I specialize in Node.js, .NET Core, REST APIs, and WordPress development, with growing expertise in Blockchain and AI/ML applications. I'm passionate about precision, user-centered design, and collaborative engineering.",
+
+  "founded_year": null,
+  "experience": "3+ years",
+
+  "headquarters": {
+    "country": "Nepal",
+    "city": "Kathmandu",
+    "address": "Kathmandu, Nepal"
+  },
+
+  "company_size": {
+    "employees": "I'm a solo entrepreneur with 4 collaborators",
+    "estimated_team": "5 total including me (Shirish, Ishmirti, Dibash, Kanchan)"
+  },
+
+  "services": [
+    "I develop robust Backend applications (Node.js, .NET Core)",
+    "I design and build REST APIs",
+    "I create custom WordPress solutions (PHP, ACF, Elementor)",
+    "I build Full Stack applications",
+    "I develop Blockchain solutions (Ethereum, Solidity, Web3.js)",
+    "I create AI/ML Solutions (Python, TensorFlow, OpenCV)",
+    "I build Facial Recognition & Smart Attendance Systems",
+    "I design scalable Databases (MySQL)",
+    "I work with containerization (Docker)"
+  ],
+
+  "specialties": [
+    "I build scalable backend architecture",
+    "I create WordPress custom solutions",
+    "I develop smart contracts",
+    "I specialize in computer vision and facial recognition",
+    "I write clean, well-documented code",
+    "I design user-centered digital products"
+  ],
+
+  "mission": "I'm committed to building efficient, scalable, and user-focused digital products that bridge complex backend systems with intuitive user experiences and make a real-world difference.",
+
+  "vision": "I want to grow into a full-stack engineer with deep expertise in AI/ML and blockchain, continuously learning and contributing to impactful technology solutions.",
+
+  "clients": {
+    "total_projects": "Multiple (2 highlighted: Blockchain Voting System, Smart Attendance System)",
+    "satisfied_clients": null,
+    "industries_served": [
+      "Government / Civic Tech (Blockchain Voting)",
+      "Education / HR (Smart Attendance)",
+      "Enterprise Systems",
+      "Web Development"
+    ]
+  },
+
+  "contact": {
+    "phone_primary": null,
+    "phone_secondary": null,
+    "email_primary": null,
+    "email_hr": null,
+    "location": "Kathmandu, Nepal",
+    "website": null
+  },
+
+  "key_features": [
+    "I follow a backend-first development philosophy",
+    "I maintain precision and clean code standards",
+    "I think from a user-centered product perspective",
+    "I have a continuous learning mindset",
+    "I'm a collaborative team player",
+    "I'm available for remote work worldwide"
+  ],
+
+  "online_presence": {
+    "linkedin": null,
+    "other_sources": [
+      "Personal portfolio website (copyright 2023)",
+      "Project repositories (Blockchain Voting, Smart Attendance)"
+    ]
+  },
+
+  "team": [
+    { "name": "Shirish", "role": "Team Lead / Strategic Oversight" },
+    { "name": "Ishmirti", "role": "Creative & Design Specialist" },
+    { "name": "Dibash", "role": "Technical Developer" },
+    { "name": "Kanchan", "role": "QA & Operations" }
+  ],
+
+  "status": "I'm actively working and open to opportunities",
+
+  "notes": "Information compiled from portfolio website pages: Home, About, Projects, Skills, and Team. Contact details (phone, email, specific URLs) were not included in the provided content. Some fields left null where data was not publicly available."
+}
