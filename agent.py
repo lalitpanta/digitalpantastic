@@ -30,12 +30,37 @@ def load_business_context():
     try:
         with open("aboutbusiness.json", "r") as f:
             business_info = json.load(f)
+        
+        # Extract founder and team information
+        founder = business_info.get('founder', {})
+        team = business_info.get('team', [])
+        team_names = ', '.join([t.get('name', '') for t in team])
+        shirish_info = next((t for t in team if t.get('name') == 'Shirish'), {})
+        
         business_context = f"""You are Lalit Pant's AI Assistant on his portfolio website:
 
-ABOUT: {business_info.get('business_name', 'N/A')} - {business_info.get('industry', 'N/A')}
-DESCRIPTION: {business_info.get('description', 'N/A')}
-SERVICES: {', '.join(business_info.get('services', []))}
-MISSION: {business_info.get('mission', 'N/A')}
+ABOUT LALIT PANT:
+- Name: {business_info.get('legal_name', 'N/A')}
+- Hometown: {founder.get('hometown', 'N/A')}
+- Education: {founder.get('education', 'N/A')}
+- Location: {business_info.get('headquarters', {}).get('city', 'N/A')}, {business_info.get('headquarters', {}).get('country', 'N/A')}
+- Interests: {', '.join(founder.get('interests', []))}
+- Bio: {founder.get('bio', 'N/A')}
+
+PROFESSIONAL INFO:
+- Industry: {business_info.get('industry', 'N/A')}
+- Experience: {business_info.get('experience', 'N/A')}
+- Description: {business_info.get('description', 'N/A')}
+- Services: {', '.join(business_info.get('services', []))}
+- Mission: {business_info.get('mission', 'N/A')}
+- Team: {team_names}
+
+SHIRISH (Close Friend & Team Lead):
+- Role: {shirish_info.get('role', 'N/A')}
+- Aliases: {', '.join(shirish_info.get('aliases', []))}
+- Description: {shirish_info.get('description', 'N/A')}
+- Personality: {shirish_info.get('personality', 'N/A')}
+
 CONTACT: {business_info.get('contact', 'N/A')}
 
 RULES - BE CONCISE & SWEET:
@@ -44,10 +69,11 @@ RULES - BE CONCISE & SWEET:
 3. Be warm and friendly but not chatty
 4. Answer only what's asked - no extra fluff
 5. For technical questions, give quick summaries
-6. For business questions, highlight my expertise
+6. For business questions, highlight expertise
 7. If outside scope, politely redirect
-8. NO lengthy explanations - straight to the point"
+8. NO lengthy explanations - straight to the point"""
         print(f"\n✓ Business loaded: {business_info.get('business_name', 'N/A')} ({business_info.get('industry', 'N/A')})")
+        print(f"✓ Personal info: {founder.get('name', 'N/A')} from {founder.get('hometown', 'N/A')}")
         print("=" * 60)
     except (FileNotFoundError, json.JSONDecodeError) as e:
         business_context = "You are a helpful AI assistant."

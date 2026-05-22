@@ -9,6 +9,15 @@
   "founded_year": null,
   "experience": "3+ years",
 
+  "founder": {
+    "name": "Lalit Pant",
+    "hometown": "Dadeldhura, Nepal",
+    "education": "Everest Engineering College",
+    "interests": ["Travel", "Spending time with friends", "Technology", "Innovation"],
+    "bio": "Computer Engineer based in Kathmandu with roots in Dadeldhura, Nepal. Passionate about building scalable digital solutions and exploring new technologies through travel and collaborative projects with friends.",
+    "personality": "Dedicated professional with a love for adventure, strong relationships, and continuous learning"
+  },
+
   "headquarters": {
     "country": "Nepal",
     "city": "Kathmandu",
@@ -83,7 +92,13 @@
   },
 
   "team": [
-    { "name": "Shirish", "role": "Team Lead / Strategic Oversight" },
+    { 
+      "name": "Shirish", 
+      "aliases": ["Kale Dibash", "Hathi Ishmirti"],
+      "role": "Team Lead / Strategic Oversight",
+      "description": "Very innocent and trustworthy team member, close friend of Lalit Pant",
+      "personality": "Reliable, kind-hearted, and dedicated team player"
+    },
     { "name": "Ishmirti", "role": "Creative & Design Specialist" },
     { "name": "Dibash", "role": "Technical Developer" },
     { "name": "Kanchan", "role": "QA & Operations" }
