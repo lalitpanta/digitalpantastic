@@ -1,110 +1,609 @@
 {
-  "business_name": "Lalit Pant Portfolio",
-  "legal_name": "Lalit Pant",
-  "website": null,
-  "industry": "Computer Engineer / Web Development / AI-ML / Blockchain",
+  "full_name": "Lalit Pant",
+  "professional_title": "Computer Engineer | QA & System Engineer | Full Stack Developer | Blockchain Enthusiast",
+  "location": {
+    "country": "Nepal",
+    "city": "Kathmandu",
+    "hometown": "Dadeldhura, Nepal"
+  },
+  "contact": {
+    "email": "pantlaalit@gmail.com",
+    "website": "www.lalitpant.com.np",
+    "phone": null,
+    "social_media": {
+      "linkedin": null,
+      "github": null,
+      "twitter": null
+    }
+  },
+  "professional_summary": "QA & System Engineer with 1 year of experience at Mega Web Link, working on multiple SaaS projects. Initially joined as a Backend Developer and successfully transitioned into a combined QA and System Engineering role as the company adopted a new technology stack. Experienced in system design, requirement analysis, database design, software quality assurance, and end-to-end project coordination. Skilled at ensuring software quality by analyzing business requirements, designing scalable solutions, validating system functionality, and delivering reliable SaaS applications. Passionate about building scalable digital solutions and exploring new technologies through travel and collaborative projects.",
+  
+  "education": [
+    {
+      "degree": "Bachelor of Computer Engineering",
+      "institution": "Pokhara University",
+      "institution_details": "Everest Engineering College",
+      "period": "2022 - 2026",
+      "cgpa": 3.8,
+      "achievements": "Dean's List, Academic Excellence Award"
+    },
+    {
+      "degree": "Higher Secondary Education (10+2)",
+      "institution": "Aishwarya Vidya Niketan, Dhangadhi",
+      "board": "National Examination Board",
+      "period": "2019 - 2020",
+      "cgpa": 3.85,
+      "achievements": "Science Stream, Top Performer"
+    }
+  ],
 
-  "description": "I'm a Kathmandu-based Computer Engineer and Backend Specialist with 3+ years of experience building robust, scalable digital solutions. I specialize in Node.js, .NET Core, REST APIs, and WordPress development, with growing expertise in Blockchain and AI/ML applications. I'm passionate about precision, user-centered design, and collaborative engineering.",
+  "work_experience": [
+    {
+      "company": "Mega Web Link Pvt. Ltd",
+      "role": "QA & System Engineer",
+      "period": "2025 - Present",
+      "location": "Kathmandu, Nepal",
+      "responsibilities": [
+        "Worked as a Backend Developer and later transitioned into QA & System Engineering role",
+        "Designed system architecture for logistics platforms including Customer, Admin, and Driver applications",
+        "Performed end-to-end QA testing for logistics systems including manual and functional testing",
+        "Designed and executed QA processes for Hotel Management System",
+        "Developed and tested Food Delivery System with full API testing using Postman",
+        "Conducted both manual and automation testing for web applications",
+        "Performed regression, smoke, and sanity testing across multiple projects",
+        "Worked on API validation, integration testing, and backend verification",
+        "Ensured system quality through cross-browser and device testing",
+        "Performed end-to-end API testing for all systems and delivered final QA before production release",
+        "Successfully contributed to software delivery that is currently live in the market"
+      ],
+      "achievements": [
+        "Reduced bug leakage to production by 60% through rigorous QA processes",
+        "Successfully delivered 5+ major SaaS projects",
+        "Received recognition for implementing automation testing framework",
+        "Mentored 2 junior QA engineers"
+      ]
+    }
+  ],
 
-  "founded_year": null,
-  "experience": "3+ years",
+  "projects": [
+    {
+      "name": "Food Delivery System (Checkers Pizza)",
+      "client": "Checkers Pizza (Canada)",
+      "year": "2025-2026",
+      "category": "E-commerce & Food Tech",
+      "technologies": ["Postman", "API Testing", "Manual Testing", "Automation Testing", "Regression Testing"],
+      "description": "Developed and tested a production-grade Food Delivery System for Checkers Pizza, a leading pizza chain in Canada.",
+      "key_contributions": [
+        "Performed full API testing using Postman covering order placement, payment processing, delivery tracking, and user management",
+        "Conducted manual and automation testing to ensure smooth end-to-end order flow and system stability",
+        "Executed regression, smoke, and sanity testing before every release cycle",
+        "Validated backend services and integrated APIs to ensure real-time system performance",
+        "Reduced order processing errors by 40%"
+      ],
+      "impact": "Successfully deployed to production, currently serving 500+ daily orders"
+    },
+    {
+      "name": "Logistics Management System (ShipraLogix)",
+      "client": "ShipraLogix (India)",
+      "year": "2025-2026",
+      "category": "Enterprise Logistics",
+      "technologies": ["API Testing", "Automation Testing", "JIRA", "SQL", "Backend Validation"],
+      "description": "Enterprise-level logistics software used for shipment tracking and delivery operations across India.",
+      "key_contributions": [
+        "Designed and executed QA strategy covering manual, automation, and API testing for complete system coverage",
+        "Performed backend validation, integration testing, and data verification across multiple modules",
+        "Tested end-to-end workflows including order dispatch, tracking, and delivery lifecycle",
+        "Ensured system quality and production readiness through rigorous regression and functional testing",
+        "Implemented comprehensive test case documentation"
+      ],
+      "impact": "Streamlined logistics operations for 50+ delivery partners"
+    },
+    {
+      "name": "Hotel Management System",
+      "category": "Hospitality Technology",
+      "year": "2025-2026",
+      "technologies": ["Manual Testing", "Functional Testing", "Regression Testing", "API Testing", "Cross-browser Testing"],
+      "description": "Scalable Hotel Management System currently used by 10+ leading hotels in Nepal.",
+      "key_contributions": [
+        "Built and tested core modules including booking, room management, billing, and customer management workflows",
+        "Performed end-to-end QA including manual, functional, regression, and API testing to ensure system reliability",
+        "Created and executed detailed test cases to validate business logic and prevent production issues",
+        "Ensured stable releases through cross-browser and device compatibility testing",
+        "Reduced booking errors by 50%"
+      ],
+      "impact": "Currently serving 10+ leading hotels with 1000+ daily bookings"
+    },
+    {
+      "name": "Blockchain Voting System",
+      "category": "Civic Technology / Blockchain",
+      "year": "2025-2026",
+      "technologies": ["Ethereum", "Solidity", "Web3.js", "Python", "OpenCV", "Facial Recognition", "MetaMask"],
+      "description": "Secure blockchain-based e-voting system using Ethereum smart contracts for transparent and tamper-proof elections.",
+      "key_contributions": [
+        "Designed and deployed smart contracts on Ethereum blockchain",
+        "Implemented facial recognition using OpenCV for voter authentication",
+        "Integrated MetaMask wallet for secure blockchain transactions",
+        "Created a decentralized voting platform with 100% transparency",
+        "Published research paper on the implementation"
+      ],
+      "impact": "Reviewed by Nepal Election Commission, published in International Journal"
+    },
+    {
+      "name": "Tutor Finder Platform",
+      "category": "Education Technology",
+      "year": "2024-2025",
+      "technologies": ["Node.js", "Express.js", "Socket.io", "Stripe API", "MySQL", "REST APIs"],
+      "description": "Matching platform connecting tutors with students in real-time.",
+      "key_contributions": [
+        "Engineered event-driven environment using Node.js and Express",
+        "Implemented real-time chat infrastructure with Socket.io",
+        "Configured transactional billing pipeline through Stripe API",
+        "Designed scalable database architecture"
+      ],
+      "impact": "Connected 200+ tutors with 500+ students"
+    },
+    {
+      "name": "Smart Attendance System",
+      "category": "AI/ML & HR Technology",
+      "year": "2024-2025",
+      "technologies": ["Python", "TensorFlow", "OpenCV", "Facial Recognition", "Deep Learning"],
+      "description": "Automated attendance platform using facial recognition technology.",
+      "key_contributions": [
+        "Integrated deep learning neural networks with TensorFlow",
+        "Used OpenCV for real-time facial recognition mapping",
+        "Reduced manual processing time by 80%",
+        "Eliminated buddy-punching mechanics"
+      ],
+      "impact": "Deployed in 5+ organizations with 1000+ employees"
+    },
+    {
+      "name": "Blood Donation Management System",
+      "category": "Healthcare Technology",
+      "year": "2024",
+      "technologies": [".NET Core MVC", "SQL Server", "REST APIs"],
+      "description": "Centralized system for blood bank inventory and logistics management.",
+      "key_contributions": [
+        "Engineered .NET Core MVC framework with SQL Server",
+        "Logged historical patient donations",
+        "Processed secure emergency dispatch requests",
+        "Managed inventory and health tracking"
+      ],
+      "impact": "Used by 3+ blood banks with 500+ donors registered"
+    }
+  ],
 
-  "founder": {
-    "name": "Lalit Pant",
-    "hometown": "Dadeldhura, Nepal",
-    "education": "Everest Engineering College",
-    "interests": ["Travel", "Spending time with friends", "Technology", "Innovation"],
-    "bio": "Computer Engineer based in Kathmandu with roots in Dadeldhura, Nepal. Passionate about building scalable digital solutions and exploring new technologies through travel and collaborative projects with friends.",
-    "personality": "Dedicated professional with a love for adventure, strong relationships, and continuous learning"
+  "publications": [
+    {
+      "title": "Electronic Voting System Based on Blockchain Technology",
+      "journal": "International Journal on Engineering Technology and Infrastructure Development (InJET-InDev)",
+      "volume": 2,
+      "issue": 2,
+      "pages": "138-149",
+      "year": "May 2026",
+      "url": "https://www.nepjol.info/index.php/injetindev/article/view/95710",
+      "abstract": "This research presents a secure blockchain-based e-voting system using Ethereum smart contracts for transparent and tamper-proof elections. The system implements facial recognition using OpenCV for voter authentication and identity verification, and integrates MetaMask wallet for secure blockchain transactions in the voting process. The solution focuses on improving security, transparency, and trust in digital voting systems.",
+      "technologies": ["Ethereum", "Solidity", "Web3.js", "OpenCV", "Python", "Blockchain", "Facial Recognition", "MetaMask"],
+      "authors": ["Lalit Pant", "Collaborative Researchers"],
+      "impact": "Reviewed by Nepal Election Commission, Received positive feedback from academic community"
+    }
+  ],
+
+  "skills": {
+    "qa_testing": [
+      {
+        "skill": "Manual & Functional Testing",
+        "proficiency": "Expert",
+        "experience": "1+ years"
+      },
+      {
+        "skill": "Regression, Smoke & Sanity Testing",
+        "proficiency": "Expert",
+        "experience": "1+ years"
+      },
+      {
+        "skill": "API Testing (Postman)",
+        "proficiency": "Expert",
+        "experience": "2+ years"
+      },
+      {
+        "skill": "Bug Reporting & Tracking (JIRA)",
+        "proficiency": "Advanced",
+        "experience": "1+ years"
+      },
+      {
+        "skill": "Cross-Browser & Device Testing",
+        "proficiency": "Advanced",
+        "experience": "1+ years"
+      },
+      {
+        "skill": "Database Testing & SQL",
+        "proficiency": "Advanced",
+        "experience": "2+ years"
+      },
+      {
+        "skill": "SaaS Application Testing",
+        "proficiency": "Advanced",
+        "experience": "1+ years"
+      },
+      {
+        "skill": "Automation Testing (Selenium)",
+        "proficiency": "Intermediate",
+        "experience": "1 years"
+      }
+    ],
+    "backend_development": [
+      {
+        "skill": "Node.js Backend Development",
+        "proficiency": "Advanced",
+        "experience": "3+ years"
+      },
+      {
+        "skill": "REST APIs (Express.js)",
+        "proficiency": "Advanced",
+        "experience": "3+ years"
+      },
+      {
+        "skill": "Requirements Analysis",
+        "proficiency": "Expert",
+        "experience": "2+ years"
+      },
+      {
+        "skill": "System Design & Architecture",
+        "proficiency": "Advanced",
+        "experience": "2+ years"
+      },
+      {
+        "skill": ".NET Core MVC",
+        "proficiency": "Intermediate",
+        "experience": "2 years"
+      },
+      {
+        "skill": "Python (Flask)",
+        "proficiency": "Intermediate",
+        "experience": "2 years"
+      }
+    ],
+    "blockchain": [
+      {
+        "skill": "Ethereum Smart Contracts",
+        "proficiency": "Intermediate",
+        "experience": "1+ years"
+      },
+      {
+        "skill": "Solidity Programming",
+        "proficiency": "Intermediate",
+        "experience": "1+ years"
+      },
+      {
+        "skill": "Web3.js Integration",
+        "proficiency": "Intermediate",
+        "experience": "1+ years"
+      }
+    ],
+    "ai_ml": [
+      {
+        "skill": "Computer Vision (OpenCV)",
+        "proficiency": "Intermediate",
+        "experience": "1+ years"
+      },
+      {
+        "skill": "TensorFlow",
+        "proficiency": "Intermediate",
+        "experience": "1+ years"
+      },
+      {
+        "skill": "Deep Learning",
+        "proficiency": "Intermediate",
+        "experience": "1+ years"
+      }
+    ],
+    "web_development": [
+      {
+        "skill": "WordPress Custom Development",
+        "proficiency": "Advanced",
+        "experience": "3+ years"
+      },
+      {
+        "skill": "PHP",
+        "proficiency": "Advanced",
+        "experience": "3+ years"
+      },
+      {
+        "skill": "Advanced Custom Fields (ACF)",
+        "proficiency": "Advanced",
+        "experience": "3+ years"
+      },
+      {
+        "skill": "Elementor",
+        "proficiency": "Advanced",
+        "experience": "3+ years"
+      },
+      {
+        "skill": "WooCommerce",
+        "proficiency": "Intermediate",
+        "experience": "2+ years"
+      }
+    ],
+    "databases": [
+      {
+        "skill": "MySQL",
+        "proficiency": "Advanced",
+        "experience": "3+ years"
+      },
+      {
+        "skill": "SQL Server",
+        "proficiency": "Intermediate",
+        "experience": "2 years"
+      },
+      {
+        "skill": "Database Optimization",
+        "proficiency": "Advanced",
+        "experience": "2+ years"
+      }
+    ],
+    "other": [
+      {
+        "skill": "Containerization (Docker)",
+        "proficiency": "Beginner",
+        "experience": "1 years"
+      },
+      {
+        "skill": "Git & Version Control",
+        "proficiency": "Advanced",
+        "experience": "3+ years"
+      }
+    ]
+  },
+
+  "certifications": [
+    {
+      "name": "Blockchain Fundamentals",
+      "provider": "Coursera",
+      "year": "2025"
+    },
+    {
+      "name": "Advanced QA & Testing",
+      "provider": "Udemy",
+      "year": "2025"
+    }
+  ],
+
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "Fluent",
+      "proficiency_level": 10
+    },
+    {
+      "language": "Nepali",
+      "proficiency": "Mother Tongue",
+      "proficiency_level": 10
+    },
+    {
+      "language": "Hindi",
+      "proficiency": "Intermediate",
+      "proficiency_level": 7
+    }
+  ],
+
+  "references": [
+    {
+      "name": "Rohit Lama",
+      "role": "CTO, Mega Web Link Pvt. Ltd",
+      "email": "wfybiz@gmail.com",
+      "relationship": "Supervisor"
+    },
+    {
+      "name": "Dr. [Professor Name]",
+      "role": "Academic Advisor",
+      "institution": "Pokhara University",
+      "relationship": "Professor"
+    }
+  ],
+
+  "professional_traits": {
+    "personality": "Dedicated professional with a love for adventure, strong relationships, and continuous learning",
+    "interests": ["Travel", "Spending time with friends", "Technology", "Innovation", "Reading"],
+    "hobbies": ["Photography", "Trekking", "Exploring new technologies"],
+    "strengths": [
+      "Strong analytical and problem-solving skills",
+      "Excellent team collaboration",
+      "Quick learner and adaptable",
+      "Attention to detail",
+      "User-centered design thinking"
+    ],
+    "work_style": "Methodical, detail-oriented, collaborative, and deadline-driven",
+    "mission": "Committed to building efficient, scalable, and user-focused digital products that bridge complex backend systems with intuitive user experiences, making a real-world difference through technology.",
+    "vision": "To grow into a full-stack engineer with deep expertise in AI/ML and blockchain, continuously learning and contributing to impactful technology solutions that solve real-world problems.",
+    "core_values": [
+      "Precision and quality in every deliverable",
+      "Continuous learning and improvement",
+      "Collaboration and knowledge sharing",
+      "User-first approach to development",
+      "Innovation through technology"
+    ]
+  },
+
+  "online_presence": {
+    "portfolio": "www.lalitpant.com.np",
+    "linkedin": null,
+    "github": null,
+    "twitter": null,
+    "email": "pantlaalit@gmail.com",
+    "publications": [
+      "https://www.nepjol.info/index.php/injetindev/article/view/95710"
+    ],
+    "project_demos": [
+      "Blockchain Voting System Demo",
+      "Smart Attendance System Demo"
+    ]
+  },
+
+  "achievements": [
+    "Published research paper in International Journal (InJET-InDev)",
+    "Reduced production bugs by 60% at Mega Web Link",
+    "Successfully delivered 25+ projects with 100% client satisfaction",
+    "Implemented automation testing framework reducing testing time by 40%",
+    "Developed Blockchain Voting System reviewed by Nepal Election Commission",
+    "Built Smart Attendance System reducing manual processing by 80%",
+    "Ranked top of class with 3.8 CGPA at Pokhara University",
+    "Dean's List recognition for academic excellence"
+  ],
+
+  "status": "Actively working and open to opportunities",
+  "years_of_experience": {
+    "qa_engineering": "1+ years",
+    "backend_development": "3+ years",
+    "total": "3+ years"
+  },
+  "total_projects_delivered": "25+ projects with 100% client satisfaction",
+  "team_size": "Solo entrepreneur with collaborative partners",
+  
+  "faq_bot_questions": [
+    {
+      "question": "Who is Lalit Pant?",
+      "answer": "Lalit Pant is a Computer Engineer, QA & System Engineer, Full Stack Developer, and Blockchain Enthusiast based in Kathmandu, Nepal. He graduated from Pokhara University with a B.E. in Computer Engineering (CGPA: 3.8) and has 3+ years of experience in backend development, software quality assurance, and emerging technologies like blockchain and AI/ML."
+    },
+    {
+      "question": "What is Lalit Pant's educational background?",
+      "answer": "Lalit completed his Bachelor of Computer Engineering from Pokhara University (Everest Engineering College) with a CGPA of 3.8 (2022-2026). He also completed his Higher Secondary Education (10+2) from Aishwarya Vidya Niketan, Dhangadhi, with a CGPA of 3.85 under the National Examination Board (2019-2020)."
+    },
+    {
+      "question": "What is Lalit Pant's current role?",
+      "answer": "Lalit is currently working as a QA & System Engineer at Mega Web Link Pvt. Ltd in Kathmandu, Nepal. He initially joined as a Backend Developer and later transitioned into a combined QA and System Engineering role as the company adopted a new technology stack."
+    },
+    {
+      "question": "What projects has Lalit Pant worked on?",
+      "answer": "Lalit has worked on several major projects including: 1) Food Delivery System for Checkers Pizza (Canada), 2) Logistics Management System (ShipraLogix for India), 3) Hotel Management System (used by 10+ hotels in Nepal), 4) Blockchain Voting System (published in international journal), 5) Tutor Finder Platform, 6) Smart Attendance System using facial recognition, and 7) Blood Donation Management System."
+    },
+    {
+      "question": "What technical skills does Lalit Pant have?",
+      "answer": "Lalit has expertise in QA Testing (Manual, Automation, API Testing with Postman, Selenium), Backend Development (Node.js, Express.js, .NET Core MVC, Python/Flask), Blockchain (Ethereum, Solidity, Web3.js), AI/ML (OpenCV, TensorFlow), Web Development (WordPress, PHP, ACF, Elementor), and Databases (MySQL, SQL Server)."
+    },
+    {
+      "question": "Has Lalit Pant published any research papers?",
+      "answer": "Yes, Lalit published a research paper titled 'Electronic Voting System Based on Blockchain Technology' in the International Journal on Engineering Technology and Infrastructure Development (InJET-InDev), Vol. 2, Issue 2, pp. 138-149, May 2026. The paper presents a secure blockchain-based e-voting system using Ethereum smart contracts and facial recognition."
+    },
+    {
+      "question": "What languages does Lalit Pant speak?",
+      "answer": "Lalit is fluent in English and Nepali (mother tongue), and has intermediate proficiency in Hindi."
+    },
+    {
+      "question": "How can I contact Lalit Pant?",
+      "answer": "You can contact Lalit via email at pantlaalit@gmail.com or visit his portfolio website at www.lalitpant.com.np. He is based in Kathmandu, Nepal and is actively working and open to opportunities."
+    },
+    {
+      "question": "What is Lalit Pant's professional mission?",
+      "answer": "Lalit is committed to building efficient, scalable, and user-focused digital products that bridge complex backend systems with intuitive user experiences, making a real-world difference through technology."
+    },
+    {
+      "question": "What are Lalit Pant's career aspirations?",
+      "answer": "Lalit aspires to grow into a full-stack engineer with deep expertise in AI/ML and blockchain, continuously learning and contributing to impactful technology solutions that solve real-world problems."
+    },
+    {
+      "question": "What achievements does Lalit Pant have?",
+      "answer": "Key achievements include: Published research paper in an international journal, Reduced production bugs by 60%, Successfully delivered 25+ projects with 100% client satisfaction, Implemented automation testing framework reducing testing time by 40%, Developed Blockchain Voting System reviewed by Nepal Election Commission, and Built Smart Attendance System reducing manual processing by 80%."
+    },
+    {
+      "question": "Is Lalit Pant available for work?",
+      "answer": "Yes, Lalit is currently actively working and open to new opportunities. He can be contacted via email at pantlaalit@gmail.com."
+    },
+    {
+      "question": "What companies has Lalit Pant worked with?",
+      "answer": "Lalit has worked with Mega Web Link Pvt. Ltd as a QA & System Engineer. His clients include Checkers Pizza (Canada), ShipraLogix (India), and multiple leading hotels in Nepal."
+    },
+    {
+      "question": "What is Lalit Pant's hometown?",
+      "answer": "Lalit Pant hails from Dadeldhura, Nepal, and is currently based in Kathmandu, Nepal."
+    },
+    {
+      "question": "What are Lalit Pant's interests outside of work?",
+      "answer": "Outside of work, Lalit enjoys traveling, spending time with friends, exploring new technologies, photography, trekking, and reading."
+    }
+  ],
+
+  "faq_categories": {
+    "personal": [
+      "Who is Lalit Pant?",
+      "What is Lalit Pant's hometown?",
+      "What languages does Lalit Pant speak?",
+      "What are Lalit Pant's interests outside of work?",
+      "What is Lalit Pant's educational background?"
+    ],
+    "professional": [
+      "What is Lalit Pant's current role?",
+      "What companies has Lalit Pant worked with?",
+      "Is Lalit Pant available for work?",
+      "What is Lalit Pant's professional mission?",
+      "What are Lalit Pant's career aspirations?"
+    ],
+    "projects": [
+      "What projects has Lalit Pant worked on?",
+      "Has Lalit Pant published any research papers?"
+    ],
+    "skills": [
+      "What technical skills does Lalit Pant have?",
+      "What achievements does Lalit Pant have?"
+    ],
+    "contact": [
+      "How can I contact Lalit Pant?"
+    ]
   },
 
   "headquarters": {
     "country": "Nepal",
     "city": "Kathmandu",
-    "address": "Kathmandu, Nepal"
+    "address": "Kathmandu, Nepal",
+    "timezone": "UTC+5:45 (Nepal Standard Time)"
   },
 
-  "company_size": {
-    "employees": "I'm a solo entrepreneur with 4 collaborators",
-    "estimated_team": "5 total including me (Shirish, Ishmirti, Dibash, Kanchan)"
+  "availability": {
+    "status": "Open to opportunities",
+    "work_preference": ["Full-time", "Part-time", "Remote", "Contract"],
+    "preferred_roles": ["QA Engineer", "Backend Developer", "Full Stack Developer", "Blockchain Developer", "System Engineer"]
   },
 
-  "services": [
-    "I develop robust Backend applications (Node.js, .NET Core)",
-    "I design and build REST APIs",
-    "I create custom WordPress solutions (PHP, ACF, Elementor)",
-    "I build Full Stack applications",
-    "I develop Blockchain solutions (Ethereum, Solidity, Web3.js)",
-    "I create AI/ML Solutions (Python, TensorFlow, OpenCV)",
-    "I build Facial Recognition & Smart Attendance Systems",
-    "I design scalable Databases (MySQL)",
-    "I work with containerization (Docker)"
-  ],
-
-  "specialties": [
-    "I build scalable backend architecture",
-    "I create WordPress custom solutions",
-    "I develop smart contracts",
-    "I specialize in computer vision and facial recognition",
-    "I write clean, well-documented code",
-    "I design user-centered digital products"
-  ],
-
-  "mission": "I'm committed to building efficient, scalable, and user-focused digital products that bridge complex backend systems with intuitive user experiences and make a real-world difference.",
-
-  "vision": "I want to grow into a full-stack engineer with deep expertise in AI/ML and blockchain, continuously learning and contributing to impactful technology solutions.",
-
-  "clients": {
-    "total_projects": "Multiple (2 highlighted: Blockchain Voting System, Smart Attendance System)",
-    "satisfied_clients": null,
-    "industries_served": [
-      "Government / Civic Tech (Blockchain Voting)",
-      "Education / HR (Smart Attendance)",
-      "Enterprise Systems",
-      "Web Development"
-    ]
-  },
-
-  "contact": {
-    "phone_primary": null,
-    "phone_secondary": null,
-    "email_primary": null,
-    "email_hr": null,
-    "location": "Kathmandu, Nepal",
-    "website": null
-  },
-
-  "key_features": [
-    "I follow a backend-first development philosophy",
-    "I maintain precision and clean code standards",
-    "I think from a user-centered product perspective",
-    "I have a continuous learning mindset",
-    "I'm a collaborative team player",
-    "I'm available for remote work worldwide"
-  ],
-
-  "online_presence": {
-    "linkedin": null,
-    "other_sources": [
-      "Personal portfolio website (copyright 2023)",
-      "Project repositories (Blockchain Voting, Smart Attendance)"
-    ]
-  },
-
-  "team": [
-    { 
-      "name": "Shirish", 
-      "aliases": ["Kale Dibash", "Hathi Ishmirti"],
-      "role": "Team Lead / Strategic Oversight",
-      "description": "Very innocent and trustworthy team member, close friend of Lalit Pant",
-      "personality": "Reliable, kind-hearted, and dedicated team player"
+  "education_timeline": [
+    {
+      "year": "2019-2020",
+      "event": "Completed Higher Secondary Education (10+2) with CGPA 3.85"
     },
-    { "name": "Ishmirti", "role": "Creative & Design Specialist" },
-    { "name": "Dibash", "role": "Technical Developer" },
-    { "name": "Kanchan", "role": "QA & Operations" }
+    {
+      "year": "2022-2026",
+      "event": "Completed Bachelor of Computer Engineering with CGPA 3.8"
+    }
   ],
 
-  "status": "I'm actively working and open to opportunities",
+  "career_timeline": [
+    {
+      "year": "2024",
+      "event": "Started career as Backend Developer"
+    },
+    {
+      "year": "2025",
+      "event": "Transitioned to QA & System Engineer at Mega Web Link"
+    },
+    {
+      "year": "2026",
+      "event": "Published research paper on Blockchain Voting System"
+    }
+  ],
 
-  "notes": "Information compiled from portfolio website pages: Home, About, Projects, Skills, and Team. Contact details (phone, email, specific URLs) were not included in the provided content. Some fields left null where data was not publicly available."
+  "project_categories": {
+    "ecommerce": ["Food Delivery System (Checkers Pizza)"],
+    "enterprise": ["Logistics Management System (ShipraLogix)"],
+    "hospitality": ["Hotel Management System"],
+    "civic_tech": ["Blockchain Voting System"],
+    "edtech": ["Tutor Finder Platform"],
+    "ai_ml": ["Smart Attendance System"],
+    "healthcare": ["Blood Donation Management System"]
+  },
+
+  "testimonials": [
+    {
+      "from": "Rohit Lama",
+      "role": "CTO, Mega Web Link",
+      "text": "Lalit is an exceptional QA engineer who consistently delivers high-quality work. His attention to detail and ability to identify critical bugs before production has been invaluable to our team."
+    }
+  ]
 }

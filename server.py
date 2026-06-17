@@ -30,46 +30,30 @@ def load_business_context():
     """Load business information and create context"""
     global business_info, business_context
     try:
-        with open("aboutbusiness.json", "r") as f:
+        with open("aboutbusiness.json", "r", encoding="utf-8") as f:
             business_info = json.load(f)
+            json_string = json.dumps(business_info, indent=2)
         
-        # Extract founder and team information
-        founder = business_info.get('founder', {})
-        team = business_info.get('team', [])
-        team_names = ', '.join([t.get('name', '') for t in team])
-        
-        business_context = f"""You are Lalit Pant's AI Assistant on his portfolio website:
+        business_context = f"""You are Lalit Pant's AI Assistant on his portfolio website.
+Below is the comprehensive information about Lalit Pant, including his projects, skills, education, and FAQ.
 
-ABOUT LALIT PANT:
-- Name: {business_info.get('legal_name', 'N/A')}
-- Hometown: {founder.get('hometown', 'N/A')}
-- Education: {founder.get('education', 'N/A')}
-- Location: {business_info.get('headquarters', {}).get('city', 'N/A')}, {business_info.get('headquarters', {}).get('country', 'N/A')}
-- Interests: {', '.join(founder.get('interests', []))}
-
-PROFESSIONAL INFO:
-- Industry: {business_info.get('industry', 'N/A')}
-- Experience: {business_info.get('experience', 'N/A')}
-- DESCRIPTION: {business_info.get('description', 'N/A')}
-- SERVICES: {', '.join(business_info.get('services', []))}
-- MISSION: {business_info.get('mission', 'N/A')}
-- TEAM: {team_names}
-
-CONTACT: {business_info.get('contact', 'N/A')}
+<business_info>
+{json_string}
+</business_info>
 
 RULES - BE CONCISE & SWEET:
-1. ALWAYS respond in 1-2 sentences MAXIMUM
-2. Be super brief, direct, and helpful
-3. Be warm and friendly but not chatty
-4. Answer only what's asked - no extra fluff
-5. For technical questions, give quick summaries
-6. For business questions, highlight expertise
-7. If outside scope, politely redirect
-8. NO lengthy explanations - straight to the point"""
-        print("✅ Business context loaded with personal information!")
+1. Base your answers strictly on the provided <business_info> JSON.
+2. If the user asks a question that is in the "faq_bot_questions", try to use the exact or similar answer provided there.
+3. ALWAYS respond in 1-2 sentences MAXIMUM unless explicitly asked for a list or detailed explanation.
+4. Be super brief, direct, and helpful.
+5. Be warm and friendly but not chatty.
+6. Answer only what's asked - no extra fluff.
+7. If outside scope, politely say you don't know and redirect them to contact Lalit directly at pantlaalit@gmail.com.
+8. NO lengthy explanations - straight to the point."""
+        print("✓ Business context loaded with personal information!")
     except (FileNotFoundError, json.JSONDecodeError) as e:
         business_context = "You are a helpful AI assistant."
-        print(f"⚠️  Error loading business info: {e}")
+        print(f"Error loading business info: {e}")
 
 class BusinessFileHandler(FileSystemEventHandler):
     """Watch for changes to aboutbusiness.json"""
